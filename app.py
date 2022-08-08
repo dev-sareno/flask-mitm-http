@@ -4,7 +4,6 @@ import requests
 
 
 url = os.getenv('APP_REQUEST_URL')
-print(url)
 if url is None or len(url.strip()) == 0:
     raise Exception('APP_REQUEST_URL env is required')
 elif not url.lower().startswith('http://') and not url.lower().startswith('https://'):
