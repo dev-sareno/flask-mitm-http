@@ -2,8 +2,9 @@
 A web app that acts as man-in-the-middle (MITM) to make HTTP GET request in behalf of the user and returns the response.
 
 ## Parameters
-* `APP_REQUEST_BEARER_TOKEN` - Token for `headers['Authorization'] = 'Bearer <token>'`
-* `APP_REQUEST_BEARER_TOKEN_PATH` - File path of the token for `headers['Authorization'] = 'Bearer <token>'`
+* `APP_REQUEST_URL` (Required) - The target URL for GET request (with prefix http:// or https://)
+* `APP_REQUEST_BEARER_TOKEN` (Optional) - Token for `headers['Authorization'] = 'Bearer <token>'`
+* `APP_REQUEST_BEARER_TOKEN_PATH` (Optional) - File path of the token for `headers['Authorization'] = 'Bearer <token>'`
 
 ## Requirements
 * Python 3.8.10
