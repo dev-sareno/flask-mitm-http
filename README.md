@@ -1,5 +1,5 @@
 # Flask MITM HTTP
-A web app that acts as man-in-the-middle (MITM) to make HTTP GET request in behalf of the user and returns the response.
+A web app that act as man-in-the-middle (MITM) to make HTTP GET request in behalf of the user and returns the response.
 
 ## Parameters
 * `APP_REQUEST_URL` (Required) - The target URL for GET request (with prefix http:// or https://)
